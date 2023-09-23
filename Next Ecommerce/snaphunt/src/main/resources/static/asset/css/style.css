@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root{
+    --primary-black : #1B2845;
+}
+*{
+    font-family: 'Lato', sans-serif;
+
+}
+.btn{
+    border-radius: 3px !important;
+}
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+	box-shadow: none !important;
+	outline: none !important;
+}
+
+.form-control.active.focus, .form-control.active:focus,
+.form-control.focus, .form-control:active.focus, 
+.form-control:active:focus, .form-control:focus {
+	box-shadow: none !important;
+	outline: none !important;
+}
+.form-control{
+	border-radius: 3px !important;
+}
+.navbar{
+	background-color: var(--primary-black) !important;
+}
+.navbar-nav .search-box{
+	background-color: #fff !important;
+	width: 600px;
+	margin-right: 50px;
+	border-radius: 3px;
+}
+.navbar-nav .search-box input{
+	border: 0;
+}
+.navbar-nav .nav-link{
+	opacity: 1 !important;
+}
+.navbar .dropdown-menu[data-bs-popper]{
+	left: -80px;
+	border-radius: 3px;
+}
+.sliders{
+	height: 450px;
+	width: 100% !important;
+	object-fit: contain;
+	background-size: cover !important;
+	background-repeat: no-repeat !important;
+	background-position: center center !important;
+}
+.btn-outline{
+	border: 1px solid #f0f0f089;
+}
+.btn-outline:hover{
+	background-color: #fff;
+	color: var(--primary-black);
+}
+.swiper-button-next, .swiper-button-prev{
+	color: #fff;
+	height: 100%;
+	top: 0;
+	padding: 10px;
+}
+.shopping-card{
+	border-radius: 3px;
+	border: none;
+	margin-top: 50px;
+}
+.shopping-card h5{
+	font-size: 16px;
+	font-weight: 600;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+}
